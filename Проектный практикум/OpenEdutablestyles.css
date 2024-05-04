@@ -49,18 +49,11 @@
 .mid {
     margin-top: 70px;
 }
-.table {
+.string {
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
 }
-.column {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-right: 1em;
-}
-a {
-    margin-top: 1em;
-}
+
 .footer {
     display: flex;
     height: 133px;
