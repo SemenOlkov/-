@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="exam1styles.css">
+</head>
+<body>
+<div class="header">
+    <div class="servicelogo"><img src="logo.svg" height="60px" width="60px"></div>
+    <div class="servicename">LearnLink</div>
+    <div class="headerbuttons">
+        <button class="headerbutton" onclick="window.location.href='indexeng.html'">Home</button>
+        <button class="headerbutton" onclick="window.location.href='emailregeng.html'">Corporate email</button>
+        <button class="headerbutton" id="OpenEduButton">OpenEdu</button>
+        <button class="headerbutton" onclick="window.location.href='exam1eng.html'">Exam1</button>
+    </div>
+    <div class="hidden" id="OpenEduMenu">
+        <a href="OpenEdueng.html">Instructions</a>
+        <a href="OpenEdutableeng.html">List of courses</a>
+    </div>
+    <div class="search">
+        <input class="search" id="globalsearchInput" placeholder="Search">
+        <div class="globalSearch" id="blockToGlobalSearch">
+            <div class="globallink hidden">
+                <a href="indexeng.html">Home</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="emailregeng.html">Corporate email registration</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html">OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#1p">Registation on OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#2p">Enrollment in courses - OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#3p">Progress Tracking - OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#4p">Final test - OpenEdu</a>
+                <p class="hidden">Proctoring</p>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html">exam1</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html#1p">Access to the platform exam1</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html#2p">Final test - exam1</a>
+                <p class="hidden">Proctoring</p>
+            </div>
+        </div>
+    </div>
+    <div class="language"><button class="headerbutton" onclick="window.location.href='exam1.html'">Eng</button></div>
+</div>
+<div class="mid">
+    <div class="pagenav">
+        <div class="navtext">
+            <p><a href="#1p" class="p">Access to the platform</a></p>
+            <p><a href="#2p" class="p">Final testing</a></p>
+            <p><a href="#3p" class="p">Information for international students</a></p>
+        </div>
+    </div>
+    <div class="info">
+        <div class="infotext">
+            <div id="1p">
+                <h1>Access to the platform</h1>
+                <div class="pict">
+                    <p>To log into your profile, go to <a href=“https://exam1.urfu.ru”>https://exam1.urfu.ru</a> and click on the “Login” button.</p>
+                    <img src="exam1/1.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="exam1/2.png" width="400">
+                    <p>Log in using your username and password from the UrFU personal account.</p>
+                </div>
+                <div class="pict">
+                    <p>On the page that opens, you can see a list of the courses that are available to you.</p>
+                    <img src="exam1/3.png" width="400">
+                </div>
+            </div>
+            <div id="2p">
+                <h1>Final testing</h1>
+                <p>Independent test control is conducted in a remote form, in accordance with the schedule in modeus (you do NOT need to sign up for STC, the date and time are already in modeus, you can ONLY pass at this time). You can take the final test from home with your own computer. Therefore, make sure that you have everything you need for this in advance.</p>
+                <p>The control measures are available at <a href="https://exam1.urfu.ru/">https://exam1.urfu.ru/</a>, <a href="https://exam2.urfu.ru/">https://exam2.urfu.ru/</a>.</p>
+                <p>Only the latest versions of modern browsers are used to work with the testing sites (Google Chrome, Mozilla Firefox).</p>
+                <p>Technical Requirements:</p>
+                <div class="pict">
+                    <p>Parameter</p>
+                    <p>Minimum requirements</p>
+                    <p>Operating system</p>
+                    <p>Windows 7</p>
+                    <p>Web browser</p>
+                    <p>Google Chrome 72, Mozilla Firefox 66</p>
+                    <p>Webcam</p>
+                    <p>640x480, 15 fps</p>
+                    <p>Microphone</p>
+                    <p>Any</p>
+                    <p>Internet bandwidth</p>
+                    <p>1 Mb/s</p>
+                    <p>Headphones/speakers</p>
+                    <p>Only when passing a foreign language, otherwise <span class=“bold”>!prohibited!</span></p>
+                </div>
+                <p>If you do not have a computer and/or webcam, please write to your tutor in advance to reserve a workspace to take the test at the institute.</p>
+                <h3>Equipment check</h3>
+                <p>To check your webcam, use the service <a href="https://ru.webcamtests.com/">https://ru.webcamtests.com/</a> (during the control activities other than the browser, programs using webcam <span class=“bold”>!must be closed!</span>).</p>
+                <h3>Requirements for the workplace</h3>
+                <ol>
+                    <ul>The student is required to take the control activity in a seated position at the desk.</ul>
+                    <ul>Lighting sources shall provide facial illumination of at least 200 lux.</ul>
+                    <ul>Light sources must be located strictly behind the focal plane of the webcam. Light sources of any nature (windows, lamps, etc.) in the field of view of the webcam are unacceptable.</ul>
+                    <ul>The webcam should not have any video display devices (TV, monitor, etc.) or any moving objects in its field of view.</ul>
+                    <ul>The webcam should be oriented so that the image of the face is strictly in the center of the frame and occupies no less than 20% and no more than 50% of the frame.</ul>
+                    <ul>The webcam must provide a focused image with a resolution of at least 640x480 pixels. It is unacceptable to block the field of view of the camera with objects located between the webcam and your face.</ul>
+                    <ul>The workstation must be isolated from any persons other than the student.</ul>
+                    <ul>The appearance of domestic and wild animals, birds, insects, etc. in the frame is unacceptable.</ul>
+                    <ul>The student should be dressed so that only the head, neck, and arms are exposed during supervisory activities.</ul>
+                    <ul>The use of tinted glasses, headgear (hoods), masks, wristwatches/wristbands, smartphones, phones, headphones and other similar devices is unacceptable.</ul>
+                </ol>
+                <p class="bold">!Non-compliance with the requirements to the organization of the workplace is regarded as a gross violation of the order of control measures, and the test result is annulled!</p>
+                <h3>Sequence of actions in the course of control activities</h3>
+                <div class="pict">
+                    <p>Open the site <a href="https://exam1.urfu.ru/">https://exam1.urfu.ru/</a>. If you have an Internet connection, you will be taken to the start page of the control events service. On the start page you will see the «Расписание НТК в зимнюю/летнюю сессию … учебного года». It's a schedule of tests in winter/summer exam period of current academic year.</p>
+                    <img src="exam1/4.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="exam1/5.png" width="400">
+                    <p>After opening the schedule in the field “Find” enter the number of your group in the format letters-digits and press “Enter”. In the opened list of disciplines of your group choose the discipline, which is scheduled for the current date and click on the button “Зачёт”.</p>
+                </div>
+                <div class="pict">
+                    <p>After that you get to the authorization page. In the corresponding fields enter your login and password from your personal cabinet of UrFU and click on the button «Вход».</p>
+                    <img src="exam1/6.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="exam1/7.png" width="400">
+                    <p>After successful authorization, click on the button «Начать тестирование». A window will appear to prepare the document photo and start the control activity. Take a photo of your student ID card/passport using the button «Отправить фото документа». If the result is unsatisfactory, try again until the result meets the requirements below. Do not forget to enable the webcam. Afterwards, click the button «Начать попытку».</p>
+                </div>
+                <div class="pict">
+                    <p>Before sending the document photo to the testing system, make sure that the document photo is sharp, contrasty, readable, and free of glare from external light sources. The document photo should occupy at least 80% of the frame field, but not more than 100%.</p>
+                    <img src="exam1/8.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="exam1/9.png" width="400">
+                    <p>After pressing the button «Начать попытку» control measure tasks will be generated and provided as shown below.</p>
+                </div>
+                <p class="bold">!During the entire test event, never turn off the webcam, do not cover it, do not disconnect your computer from the Internet, and ensure that your face is visible in the frame. If the camera is turned off, the session will be stopped and the student will not be able to continue the control event until the camera is turned back on, and time will not stop. To continue the control event, the student will have to go through the authorization procedure again (it may be necessary to reboot the device)!</p>
+                <div class="pict">
+                    <p>After passing the tasks of the control activity, click on the button «Закончить попытку».</p>
+                    <img src="exam1/10.png" width="400">
+                </div>
+                <div class="pict">
+                    <img src="exam1/11.png" width="400">
+                    <p>You will be taken to the next screen where you will be informed that your responses have been uploaded to the server, but the control event is not yet complete. You will be asked to confirm your intention to complete the test event by clicking on the button «Отправить всё и завершить тест». You can also go back to the attempt and change your answers.</p>
+                </div>
+                <div class="pict">
+                    <p>After pressing the button «Отправить всё и завершить тест» another confirmation window will appear. Once the test is complete, the work will be graded and saved for the proctor to review and decide if there is (are) no irregularities. <span class=“bold”>!Only now can you disable browser access in the webcam. If you do this earlier, your attempt may be rejected, i.e. the final grade will be zero!</span></p>
+                    <img src="exam1/12.png" width="400">
+                </div>
+            </div>
+            <div id="3p">
+                <h1>Information for international students</h1>
+                <p>You can write an application to change the form of interim certification (credit or exam) from the online test to an exam with a teacher. In order to write an application, you need to come to the deanery.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="buttonScript.js"></script>
+<script src="globalSearchscript.js"></script>
+<div class="footer">
+    <div class="techsupport"><p>Tech support address:example@mail.com</p></div>
+</div>
+</body>
+</html>
