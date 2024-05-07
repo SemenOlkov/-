@@ -42,6 +42,12 @@
     margin-right: 20px;
     border-style: none;
 }
+.globalSearch {
+    position: absolute;
+    width: 100%; 
+    background-color: #f6f6f6; 
+    z-index: 999;
+}
 .language {
     justify-self: flex-start;
     align-self: center;
@@ -53,7 +59,9 @@
     display: grid;
     grid-template-columns: 1fr 2fr 3fr;
 }
-
+.hidden {
+    display: none;
+}
 .footer {
     display: flex;
     height: 133px;

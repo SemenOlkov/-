@@ -42,6 +42,15 @@
     margin-right: 20px;
     border-style: none;
 }
+.globalSearch {
+    position: absolute;
+    width: 100%; 
+    background-color: #f6f6f6; 
+    z-index: 999;
+}
+.hidden {
+    display: none;
+}
 .language {
     justify-self: flex-start;
     align-self: center;

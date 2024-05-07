@@ -12,10 +12,50 @@
     <div class="headerbuttons">
         <button class="headerbutton" onclick="window.location.href='index.html'">Главная</button>
         <button class="headerbutton" onclick="window.location.href='emailreg.html'">Корпоративная почта</button>
-        <button class="headerbutton" onclick="window.location.href='OpenEdu.html'">OpenEdu</button>
+        <button class="headerbutton" id="OpenEduButton">OpenEdu</button>
         <button class="headerbutton" onclick="window.location.href='exam1.html'">Exam1</button>
     </div>
-    <div class="search"><input class="search" value="Поиск"></div>
+    <div class="hidden" id="OpenEduMenu">
+        <a href="OpenEdu.html">Инструкции</a>
+        <a href="OpenEdutable.html">Список курсов</a>
+    </div>
+    <div class="search">
+        <input class="search" id="globalsearchInput" placeholder="Поиск">
+        <div class="globalSearch" id="blockToGlobalSearch">
+            <div class="globallink hidden">
+                <a href="index.html">Главная</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="emailreg.html">Регистрация корпоративной почты</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdu.html">OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdu.html#1p">Регистрация на OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdu.html#2p">Запись на курсы - OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdu.html#3p">Отслеживание прогресса - OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdu.html#4p">Итоговое тестирование - OpenEdu</a>
+                <p class="hidden">Прокторинг</p>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1.html">exam1</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1.html#1p">Доступ к платформе exam1</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1.html#2p">Итоговое тестирование - exam1</a>
+                <p class="hidden">Прокторинг</p>
+            </div>
+        </div>
+    </div>
     <div class="language"><button class="headerbutton" onclick="window.location.href='OpenEdueng.html'">Ru</button></div>
 </div>
 <div class="mid">
@@ -182,6 +222,7 @@
     </div>
 </div>
 <script src="buttonScript.js"></script>
+<script src="globalSearchscript.js"></script>
 <div class="footer">
     <div class="techsupport"><p>Адрес техподдержки:example@mail.com</p></div>
 </div>

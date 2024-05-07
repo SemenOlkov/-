@@ -12,10 +12,50 @@
     <div class="headerbuttons">
         <button class="headerbutton" onclick="window.location.href='indexeng.html'">Home</button>
         <button class="headerbutton" onclick="window.location.href='emailregeng.html'">Corporate email</button>
-        <button class="headerbutton" onclick="window.location.href='OpenEdueng.html'">OpenEdu</button>
+        <button class="headerbutton" id="OpenEduButton">OpenEdu</button>
         <button class="headerbutton" onclick="window.location.href='exam1eng.html'">Exam1</button>
     </div>
-    <div class="search"><input class="search" value="Search"></div>
+    <div class="hidden" id="OpenEduMenu">
+        <a href="OpenEdueng.html">Instructions</a>
+        <a href="OpenEdutableeng.html">List of courses</a>
+    </div>
+    <div class="search">
+        <input class="search" id="globalsearchInput" placeholder="Search">
+        <div class="globalSearch" id="blockToGlobalSearch">
+            <div class="globallink hidden">
+                <a href="indexeng.html">Home</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="emailregeng.html">Corporate email registration</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html">OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#1p">Registation on OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#2p">Enrollment in courses - OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#3p">Progress Tracking - OpenEdu</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="OpenEdueng.html#4p">Final test - OpenEdu</a>
+                <p class="hidden">Proctoring</p>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html">exam1</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html#1p">Access to the platform exam1</a>
+            </div>
+            <div class="globallink hidden">
+                <a href="exam1eng.html#2p">Final test - exam1</a>
+                <p class="hidden">Proctoring</p>
+            </div>
+        </div>
+    </div>
     <div class="language"><button class="headerbutton" onclick="window.location.href='exam1.html'">Eng</button></div>
 </div>
 <div class="mid">
@@ -129,6 +169,7 @@
     </div>
 </div>
 <script src="buttonScript.js"></script>
+<script src="globalSearchscript.js"></script>
 <div class="footer">
     <div class="techsupport"><p>Tech support address:example@mail.com</p></div>
 </div>
