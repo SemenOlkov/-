@@ -1,12 +1,14 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat-Medium.ttf) format("truetype");
+}
 .header {
     display: grid;
-    background-color: rgb(8, 8, 70);
-    height: 67px;
-    grid-template-columns: 2fr 5fr 10fr 5fr 1fr;
-    justify-items: stretch;
-    position: fixed;
+    background-color: #1E4391;
+    height: 100px;
+    grid-template-columns: 2fr 4fr 11fr 4fr 1fr;
+    /*position: fixed;*/
     top: 0%;
-    width: 100%;
 }
 .servicelogo {
     align-self: center;
@@ -25,35 +27,53 @@
     justify-self: flex-start;
 }
 .headerbutton {
-    background-color: rgb(8, 8, 70);
+    background-color: #1E4391;
     color: #F9F3F3;
-    font-size: 20px;
+    font-size: 24px;
     border-style: none;
     transition: background-color 0.3s;
     margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 .headerbutton:hover {
-    background-color: rgb(8, 8, 40);
+    background-color: #1E4381;
+}
+.m {
+    border-radius: 10%;
+}
+.menu {
+    background-color: #E7DFDF;
+}
+.menu a {
+    text-decoration: none;
 }
 .search {
-    height: 28px;
-    justify-self: flex-end;
+    height: 64px;
+    width: 240px;
+    justify-self: center;
     align-self: center;
     margin-right: 20px;
     border-style: none;
+    border-radius: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 .globalSearch {
     position: absolute;
     width: 100%; 
-    background-color: #f6f6f6; 
+    background-color: E7DFDF; 
     z-index: 999;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
 }
 .hidden {
     display: none;
 }
 .language {
+    margin-right: 20px;
     justify-self: flex-start;
     align-self: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
 .mid{
     display: grid;
