@@ -10,20 +10,14 @@ body
     display: grid;
     background-color: #1E4391;
     height: 100px;
-    grid-template-columns: 2fr 4fr 11fr 4fr 1fr;
-    /*position: fixed;*/
+    grid-template-columns: 5fr 11fr 4fr 1fr;
+    position: fixed;
     top: 0%;
 }
 .servicelogo {
     align-self: center;
-    justify-self: flex-end;
+    justify-self: flex-start;
     margin-right: 10px;
-}
-.servicename {
-    color: #F9F3F3;
-    font-size: 35px;
-    text-align: flex-start;
-    align-self: center;
 }
 .headerbuttons {
     display: flex;

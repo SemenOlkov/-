@@ -2,24 +2,22 @@
     font-family: "Montserrat";
     src: url(/fonts/Montserrat-Medium.ttf) format("truetype");
 }
+body {
+    background-color: #f6f6f6;
+}
 .header {
     display: grid;
     background-color: #1E4391;
     height: 100px;
-    grid-template-columns: 2fr 4fr 11fr 4fr 1fr;
-    /*position: fixed;*/
+    width: 100%;
+    grid-template-columns: 5fr 11fr 4fr 1fr;
+    position: fixed;
     top: 0%;
 }
 .servicelogo {
     align-self: center;
-    justify-self: flex-end;
+    justify-self: flex-start;
     margin-right: 10px;
-}
-.servicename {
-    color: #F9F3F3;
-    font-size: 35px;
-    text-align: flex-start;
-    align-self: center;
 }
 .headerbuttons {
     display: flex;
@@ -75,45 +73,76 @@
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
-.step {
-    background-color: #FFFFFF;
-    border-radius: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 5%;
-    align-self: center;
-    justify-self: center;
-    margin-top: 70px;
-    font-size: 15px;
-}
-.stepbutton {
-    background-color: rgb(8, 8, 70);
-    color: #F9F3F3;
-    font-size: 15px;
-    border-style: none;
-    border-radius: 5%;
-    transition: background-color 0.3s;
-    margin-right: 15px;
-}
-.stepbutton:hover {
-    background-color: rgb(8, 8, 40);
-}
-.stepbuttons {
+.mid {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-.fillbutton {
-    opacity: 0;
+.step {
+    display: grid;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    grid-template-columns: 1fr;
+    height: 900px;
+    width: 1500px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.step img {
+    width: 1200px;
+    height: 582px;
+    justify-self: center;
+}
+.text {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    align-self: flex-end;
+}
+.num {
+    margin-right: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f6f6f6;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.text p {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+.buttons {
+    margin-left: 90px;
+    margin-right: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.to {
+    justify-self: flex-end;
+}
+.back {
+    justify-self: flex-start;
 }
 .hidden {
     display: none;
 }
+.fillbutton {
+    opacity: 0;
+}
 .footer {
+    display: grid;
     height: 70px;
     background-color: #000000;
     color: #FFFFFF;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 .techsupport {
+
     margin-left: 10px;
 }
