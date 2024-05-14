@@ -32,15 +32,6 @@
 .headerbutton:hover {
     background-color: #1E4381;
 }
-.m {
-    border-radius: 10%;
-}
-.menu {
-    background-color: #E7DFDF;
-}
-.menu a {
-    text-decoration: none;
-}
 .search {
     height: 64px;
     width: 240px;
@@ -50,14 +41,41 @@
     border-style: none;
     border-radius: 16px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
 }
 .globalSearch {
     position: absolute;
     width: 100%; 
-    background-color: E7DFDF; 
+    background-color: #FFFFFF;
+    border-radius: 10px; 
     z-index: 999;
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 14px;
+    padding-left: 1em;
+}
+.globalSearch a{
+    text-decoration: none;
+    color: #222222;
+}
+.globalSearch a:hover {
+    color: rgba(34, 34, 34, 0.6);
+}
+.m {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.menu {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.menu a {
+    text-decoration: none;
+    color: #222222;
+}
+.menu a:hover {
+    color: rgba(34, 34, 34, 0.6);
 }
 .hidden {
     display: none;
@@ -66,8 +84,15 @@
     margin-right: 20px;
     justify-self: flex-start;
     align-self: center;
+}
+.language a {
+    text-decoration: none;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+    color: #F9F3F3;
+}
+.language a:hover {
+    color: rgb(117, 135, 188)
 }
 .mid {
     margin-top: 105px;
