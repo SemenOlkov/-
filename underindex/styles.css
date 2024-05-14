@@ -58,7 +58,7 @@ body
     font-size: 14px;
     padding-left: 1em;
 }
-.globalSearch a {
+.globalSearch a{
     text-decoration: none;
     color: #222222;
 }
@@ -101,4 +101,10 @@ body
 }
 .mid {
     margin-top: 100px;
+    height: calc(100vh - 110px);
+    width: calc(100vw - 10px);
+}
+.mid svg{
+    width: 100%;
+    height: 100%;
 }
