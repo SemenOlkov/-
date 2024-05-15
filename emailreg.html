@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация корпоративной почты</title>
+    <link rel="stylesheet" href="regemailstyles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="servicelogo"><img src="logo.svg" height="60px" width="200px"></div>
+        <div class="headerbuttons">
+            <button class="headerbutton" onclick="window.location.href='index.html'">Главная</button>
+            <button class="headerbutton" onclick="window.location.href='emailreg.html'">Корпоративная почта</button>
+            <button class="headerbutton" id="OpenEduButton">OpenEdu</button>
+            <button class="headerbutton" onclick="window.location.href='exam1.html'">Exam1</button>
+        </div>
+        <div class="hidden m" id="OpenEduMenu">
+            <div class="menu">
+                <a href="OpenEdu.html">Инструкции</a>
+            </div>
+            <div class="menu">
+                <a href="OpenEdutable.html">Список курсов</a>
+            </div>
+        </div>
+        <div class="search">
+            <input class="search" id="globalsearchInput" placeholder="Поиск">
+            <div class="globalSearch" id="blockToGlobalSearch">
+                <div class="globallink hidden">
+                    <a href="index.html">Главная</a>
+                </div>
+                <div class="globallink hidden">
+                    <a href="emailreg.html">Регистрация корпоративной почты</a>
+                </div>
+                <div class="globallink hidden">
+                    <a href="OpenEdu.html">OpenEdu</a>
+                </div>
+                <div class="globallink hidden">
+                    <a href="OpenEdu.html#1p">Регистрация на OpenEdu</a>
+                </div>
+                <div class="globallink hidden">
+                    <a href="OpenEdu.html#2p">Запись на курсы - OpenEdu</a>
+                </div>
+                <div class="globallink hidden">
+                    <a href="OpenEdu.html#3p">Отслеживание прогресса - OpenEdu</a>
+                </div>
+                <div class="globallink hidden">
+                    <a href="OpenEdu.html#4p">Итоговое тестирование - OpenEdu</a>
+                    <p class="hidden">Прокторинг</p>
+                </div>
+                <div class="globallink hidden">
+                    <a href="exam1.html">exam1</a>
+                </div>
+                <div class="globallink hidden">
+                    <a href="exam1.html#1p">Доступ к платформе exam1</a>
+                </div>
+                <div class="globallink hidden">
+                    <a href="exam1.html#2p">Итоговое тестирование - exam1</a>
+                    <p class="hidden">Прокторинг</p>
+                </div>
+            </div>
+        </div>
+        <div class="language"><a href='emailregeng.html'">Eng</a></div>
+    </div>
+    <div class="mid">
+        <div id="1" class="step">
+            <div class="text">
+                <div class="num">1</div>
+                <p>Перейдите на сайт <a href="https://office365.urfu.ru">https://office365.urfu.ru</a>. Выполните вход, используя логин и пароль от личного кабинета УрФУ.</p>
+            </div>
+            <img src="regemail/1.png" width="740">
+            <div class="buttons">
+                <button class="fillbutton"></button>
+                <button id="1to2" class="to num">></button>
+            </div>
+        </div>
+        <div id="2" class="step hidden">
+            <div class="text">    
+                <div class="num">2</div>
+                <p>Нажмите на кнопку «Перейти к активации».</p>
+            </div>
+            <img src="regemail/2.png" width="740">
+            <div class="buttons">
+                <button id="2to1" class="back num"><</button>
+                <button id="2to3" class="to num">></button>
+            </div>
+        </div>
+        <div id="3" class="step hidden">
+            <div class="text">
+                <div class="num">3</div>
+                <p>Ознакомьтесь с документами, регламентирующими работу сервиса, примите соглашение об использовании служб и нажмите на кнопку «Активировать».</p>
+            </div>
+            <img src="regemail/3.png" width="740">
+            <div class="buttons">
+                <button id="3to2" class="back num"><</button>
+                <button id="3to4" class="to num">></button>
+            </div>
+        </div>
+        <div id="4" class="step hidden">
+            <div class="text">
+                <div class="num">4</div>
+                <p>В течение тридцати шести часов ваша заявка на активацию доступа будет выполнена.</p>
+            </div>
+            <img src="regemail/5.png" width="740">
+            <div class="buttons">
+                <button id="4to3" class="back num"><</button>
+                <button id="4to5" class="to num">></button>
+            </div>
+        </div>
+        <div id="5" class="step hidden">
+            <div class="text">
+                <div class="num">5</div>
+                <p>После этого Вам будет открыт доступ к корпоративному почтовому ящику в домене urfu.ru.</p>
+            </div>
+            <img src="regemail/6.png" width="740">
+            <div class="buttons">
+                <button id="5to4" class="back num"><</button>
+                <button id="5to6" class="to num">></button>
+            </div>
+        </div>
+        <div id="6" class="step hidden">
+            <div class="text">
+                <div class="num">6</div>
+                <p>Для того чтобы узнать свой почтовый адрес, зарегистрированный в домене urfu.me, нажмите пиктограмму аватара в правом верхнем углу страницы. Откроется пункт меню «Мои учетные записи». Справа от пиктограммы аватара Вы сможете увидеть адрес своей электронной почты.</p>
+            </div>
+            <img src="regemail/7.png" width="740">
+            <div class="buttons">
+                <button id="6to5" class="back num"><</button>
+                <button id="6to7" class="to num">></button>
+            </div>
+        </div>
+        <div id="7" class="step hidden">
+            <div class="text">
+                <div class="num">7</div>
+                <p>Для использования корпоративной электронной почты откройте приложение <a href="https://outlook.office.com/">Outlook</a>. На этом создание корпоративного почтового ящика для обучающихся УрФУ завершено.</p>
+            </div>
+            <img src="regemail/6.png" width="740">
+            <div class="buttons">
+                <button id="7to6" class="back num"><</button>
+            </div>
+        </div>
+    </div>
+    <script src="regscript.js"></script>
+    <script src="buttonScript.js"></script>
+    <script src="globalSearchscript.js"></script>
+    <div class="footer">
+        <div class="techsupport"><p>Адрес техподдержки:example@mail.com</p></div>
+    </div>
+</body>
+</html>
