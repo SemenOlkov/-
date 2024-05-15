@@ -62,3 +62,43 @@ document.getElementById('12to11').addEventListener('click', function() {
     document.getElementById('12').classList.add('hidden');
     document.getElementById('11').classList.remove('hidden');
 });
+document.getElementById('13to14').addEventListener('click', function() {
+    document.getElementById('13').classList.add('hidden');
+    document.getElementById('14').classList.remove('hidden');
+});
+document.getElementById('14to13').addEventListener('click', function() {
+    document.getElementById('14').classList.add('hidden');
+    document.getElementById('13').classList.remove('hidden');
+});
+document.getElementById('14to15').addEventListener('click', function() {
+    document.getElementById('14').classList.add('hidden');
+    document.getElementById('15').classList.remove('hidden');
+});
+document.getElementById('15to16').addEventListener('click', function() {
+    document.getElementById('15').classList.add('hidden');
+    document.getElementById('16').classList.remove('hidden');
+});
+document.getElementById('15to14').addEventListener('click', function() {
+    document.getElementById('15').classList.add('hidden');
+    document.getElementById('14').classList.remove('hidden');
+});
+document.getElementById('16to15').addEventListener('click', function() {
+    document.getElementById('16').classList.add('hidden');
+    document.getElementById('15').classList.remove('hidden');
+});
+document.getElementById("testobutton").addEventListener("click", function() {
+    var hiddenBlock = document.getElementById("testother");
+    if (hiddenBlock.classList.contains("hidden")) {
+        hiddenBlock.classList.remove("hidden");
+    } else {
+        hiddenBlock.classList.add("hidden");
+    }
+});
+document.getElementById("testubutton").addEventListener("click", function() {
+    var hiddenBlock = document.getElementById("testurfu");
+    if (hiddenBlock.classList.contains("hidden")) {
+        hiddenBlock.classList.remove("hidden");
+    } else {
+        hiddenBlock.classList.add("hidden");
+    }
+});
