@@ -133,8 +133,33 @@
     /*color: rgb(8, 8, 70);*/
 }
 .pict {
+    
+}
+.buttons {
+    margin-left: 4.7vw;
+    margin-right: 4.7vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.to {
+    justify-self: flex-end;
+}
+.back {
+    justify-self: flex-start;
+}
+.fillbutton {
+    opacity: 0;
+}
+.num {
+    margin-right: 0.52vw;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    font-size: 1.7vw;
+    background-color: #f6f6f6;
+    height: 3.125vw;
+    width: 3.125vw;
+    border-radius: 100%;
 }
 .bold {
     font-weight: bold;

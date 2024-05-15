@@ -225,7 +225,8 @@
                     <div class="proctorinfo">
                         <p>Check your personal information in<a href="https://sso.openedu.ru/realms/openedu/account/">profile</a>. They must match the data on the student ID card. ITMOproctor will need to take a photo of the document (student ID card) or upload a photo of the document taken in advance.</p>
                         <p>Please note that your profile must include the student's corporate email address in the domain @urfu.me. If a different mailing address is provided, no grade will be given for the exam or the course as a whole.</p>
-                        <p>During the workspace demonstration:
+                        <button id="demonstraterules">Procedure for demonstrating the workspace</button>
+                        <div id="rules" class="hidden">
                             <ol>
                                 <ul>Show the surface on which your computer or laptop sits.</ul>
                                 <ul>Use a mirror to showcase your computer screen and the space around it.</ul>
@@ -233,11 +234,9 @@
                                 <ul>Space around the workplace to make sure there are no unauthorized people.</ul>
                                 <ul>If the camera is built in, it is possible to use a mirror that can be used to show the surroundings.</ul>
                             </ol>
-                        </p>
-                        <p>The exam is administered in asynchronous mode. Test verification may take up to 5 working days.
-                            If it is not technically possible to take the final control from home, you should contact the directorate of your institute in advance with a request to provide a workplace that meets the conditions for passing the proctoring.
-                        </p>
-                        <p>Please note:
+                        </div>
+                        <button id="proctorrules">Rules for taking the test</button>
+                        <div id="rules1" class="hidden">
                             <ol>
                                 <ul>It is the student's responsibility not to leave the webcam's line of sight during tests.</ul>
                                 <ul>The microphone shall not be switched off during the test and its sensitivity shall be within normal limits.</ul>
@@ -246,8 +245,9 @@
                                 <ul>The student is not allowed to: engage in conversations with third parties, speak questions aloud, use reference materials (books, cheat sheets, notes, course materials not on the test page), use cell phones, pagers, calculators, tablets, headphones, check answers against progress changes during testing.</ul>
                                 <ul>The student agrees that systematic averting of the gaze to the edge of the monitor/beyond the screen may be considered the use of supplemental materials.</ul>
                             </ol>
-                        </p>
-                        <p>Students are allowed:
+                        </div>    
+                        <button id="rights">Students are allowed</button>
+                        <div id="rules2" class="hidden">
                             <ol>
                                 <ul>Use only the computer on which the test is being taken.</ul>
                                 <ul>When taking tests in technical subjects, use the engineering calculator built into the operating system (Start > Calculator).</ul>
@@ -255,9 +255,10 @@
                                 <ul>If the headset is used as a microphone, headphones must not be worn. The turned on headset must be placed on the desk next to the keyboard.</ul>
                                 <ul>International students are allowed the use of an interpreter (only <a href="translate.google.com">translate.google.com</a> or <a href="translate.yandex.ru">translate.yandex.ru</a>) on the adjacent tab during the final control.</ul>
                             </ol>
-                        </p>
-                        <p>If the test is rejected by the proctor, the user has the right to request an additional attempt to take the final control.</p>
+                        </div>
                         <p class="bold">!In case violations of the rules described above are detected, the attempt is considered used and the test is considered unsuccessful!</p>
+                        <p>The exam is administered in asynchronous mode. Test verification may take up to 5 working days. If it is not technically possible to take the final control from home, you should contact the directorate of your institute in advance with a request to provide a workplace that meets the conditions for passing the proctoring.</p>
+                        <p>If the test is rejected by the proctor, the user has the right to request an additional attempt to take the final control.</p>
                     </div>
                 </div>
             </div>
