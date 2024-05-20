@@ -156,14 +156,14 @@ h1 {
     position: absolute;
     height: 50vh;
     width: 30vw;
-    bottom: 10%;
+    bottom: 12%;
     left: 10%;
 }
 .cat2 {
     height: 45vh;
     width: 25vw;
     position: absolute;
-    bottom: 12.5%;
+    bottom: 13.5%;
     right: 13%;
 }
 .cat3 {
@@ -177,14 +177,14 @@ h1 {
     position: absolute;
     height: 50vh;
     width: 30vw;
-    bottom: 10%;
+    bottom: 10.5%;
     right: 14%;
 }
 .cat5 {
     position: absolute;
     height: 50vh;
     width: 30vw;
-    bottom: 10%;
+    bottom: 11%;
     right: 26.5%;
 }
 .i {
