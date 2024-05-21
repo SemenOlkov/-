@@ -169,3 +169,21 @@ body {
     color: #111920;
     border-bottom: 1.5px solid #111920;
 }
+#crm2 {
+    position: absolute;
+    border-radius: 10px;
+    padding-left: 5px;
+    background-color: #F0F5FF;
+    border: 2px solid #365D7F;
+    width: 10vw;
+}
+#crm2 a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw;
+    color: #365D7F;
+}
+#crm2 a:hover {
+    color: #111920;
+    border-bottom: 1.5px solid #111920;
+}

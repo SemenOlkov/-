@@ -126,6 +126,26 @@ body {
     justify-content: center;
     align-items: center;
 }
+.stepi {
+    background-color: #ffffff;
+    width: 70vw;
+    border: 1.5px solid #365D7F;
+    border-radius: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+    margin-top: 5vh;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+}
+.catfr {
+    height: 30vh;
+}
+.h {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+}
 .step img{
     height: 58.6vh;
     width: 66.7vw;
@@ -186,6 +206,48 @@ h1 {
     width: 30vw;
     bottom: 11%;
     right: 26.5%;
+}
+.catr {
+    position: absolute;
+    height: 55vh;
+    width: 32vw;
+    right: 0%;
+    top: 90%;
+}
+.catr1 {
+    position: absolute;
+    height: 55vh;
+    width: 32vw;
+    right: 0%;
+    top: 76%;
+}
+.catr11 {
+    position: absolute;
+    height: 55vh;
+    width: 32vw;
+    right: 0%;
+    top: 67%;
+}
+.cat6 {
+    height: 45vh;
+    width: 25vw;
+    position: absolute;
+    bottom: 13.5%;
+    left: 10%;
+}
+.cat7 {
+    position: absolute;
+    height: 45vh;
+    width: 28vw;
+    bottom: 11%;
+    right: 9.5%;
+}
+.cat8 {
+    position: absolute;
+    height: 50vh;
+    width: 30vw;
+    bottom: 11%;
+    right: 39.5%;
 }
 .i {
     font-family: 'Montserrat', sans-serif;
