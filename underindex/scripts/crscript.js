@@ -14,3 +14,11 @@ document.getElementById('6to7').addEventListener('click', function() {
     document.getElementById('6').classList.add('hidden');
     document.getElementById('7').classList.remove('hidden');
 });
+document.getElementById('7to8').addEventListener('click', function() {
+    document.getElementById('7').classList.add('hidden');
+    document.getElementById('8').classList.remove('hidden');
+});
+document.getElementById('8to7').addEventListener('click', function() {
+    document.getElementById('8').classList.add('hidden');
+    document.getElementById('7').classList.remove('hidden');
+});
