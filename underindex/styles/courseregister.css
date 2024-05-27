@@ -260,3 +260,33 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8vw;
 }
+.f1 a{
+    text-decoration: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.f1 a:hover{
+    border-bottom: 1px solid #F0F5FF;
+    color: #F0F5FF;
+}
+.f1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    color: #FFFFFF;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5px;
+}
+.f1 p {
+    height: 0.1vh;
+}
+.f3 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    color: #FFFFFF;
+}
+.f3 {
+    padding-left: 1em;
+}

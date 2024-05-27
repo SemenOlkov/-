@@ -108,7 +108,7 @@ h1 {
     text-align: center;
     font-size: 2vw;
     height: 2vw;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
 }
 .mid {
     display: grid;
@@ -138,4 +138,71 @@ h1 {
     width: 50vw;
     height: 60vh;
     justify-self: center;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.9vw;
+    height: 1.9vw;
+    margin-bottom: 1em;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.7vw;
+    height: 1.7vw;
+    margin-bottom: 1em;
+}
+.sq {
+    justify-self: center;
+    height: 26vw;
+    width: 26vw;
+}
+.sp {
+    justify-self: center;
+    width: 60vw;
+    height: 40vh;
+}
+.rt {
+    justify-self: center;
+    width: 42vw;
+    height: 62vh;
+}
+.i {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8vw;
+}
+.examusimg {
+    justify-self: center;
+}
+.f1 a{
+    text-decoration: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.f1 a:hover{
+    border-bottom: 1px solid #F0F5FF;
+    color: #F0F5FF;
+}
+.f1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    color: #FFFFFF;
+    justify-content: end;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 0.5px;
+}
+.f1 p {
+    height: 0.1vh;
+}
+.f3 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    color: #FFFFFF;
+}
+.f3 {
+    padding-left: 1em;
 }
