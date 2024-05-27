@@ -102,106 +102,40 @@ body {
     color: #ffffff; 
     height: 30px;
 }
-/*v*/
-.meet {
-    height: 88vh;
-    width: 98vw;
-}
-.buttons {
-    padding-top: 5.6vh;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    margin-bottom: 17vh;
-}
-.buttonline {
-    margin-bottom: 3.5vh;
-}
-.navbutton {
-    border-style: none;
-    color: #365D7F;
-    background-color: #F0F5FF;
-    border: 3.2px solid #365D7F;
+/*a*/
+h1 {
     font-family: 'Montserrat', sans-serif;
-    border-radius: 1.5vh;
+    text-align: center;
     font-size: 2vw;
-    height: 9vh;
-    padding-left: 1vw;
-    padding-right: 1vh;
-    margin-right: 2vw;
+    height: 2vw;
+    margin-bottom: 2.5em;
 }
-.navbutton:hover {
-    background-color: #365D7F;
-    color: #F0F5FF;
+.mid {
+    display: grid;
+    grid-template-columns: 1fr;
 }
-#crm1 {
-    position: absolute;
-    border-radius: 10px;
-    padding-left: 5px;
-    background-color: #F0F5FF;
-    border: 2px solid #365D7F;
-    width: 10vw;
+.step {
+    display: grid;
+    background-color: #ffffff;
+    width: 70vw;
+    border: 1.5px solid #365D7F;
+    border-radius: 1vw;
+    grid-template-columns: 1fr;
+    justify-self: center;
+    padding-left: 2em;
+    margin-bottom: 10vh;
 }
-#crm1 a {
-    text-decoration: none;
+.step p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8vw;
-    color: #365D7F;
+    font-size: 1.5vw;
 }
-#crm1 a:hover {
-    color: #111920;
-    border-bottom: 1.5px solid #111920;
+.img {
+    justify-self: center;
+    width: 60vw;
+    height: 48vh;
 }
-#crm {
-    position: absolute;
-    border-radius: 10px;
-    padding-left: 5px;
-    background-color: #F0F5FF;
-    border: 2px solid #365D7F;
-    width: 10vw;
-}
-#crm a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8vw;
-    color: #365D7F;
-}
-#crm a:hover {
-    color: #111920;
-    border-bottom: 1.5px solid #111920;
-}
-#crm2 {
-    position: absolute;
-    border-radius: 10px;
-    padding-left: 5px;
-    background-color: #F0F5FF;
-    border: 2px solid #365D7F;
-    width: 10vw;
-}
-#crm2 a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8vw;
-    color: #365D7F;
-}
-#crm2 a:hover {
-    color: #111920;
-    border-bottom: 1.5px solid #111920;
-}
-#crm3 {
-    position: absolute;
-    border-radius: 10px;
-    padding-left: 5px;
-    background-color: #F0F5FF;
-    border: 2px solid #365D7F;
-    width: 10vw;
-}
-#crm3 a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8vw;
-    color: #365D7F;
-}
-#crm3 a:hover {
-    color: #111920;
-    border-bottom: 1.5px solid #111920;
+.fix {
+    width: 50vw;
+    height: 60vh;
+    justify-self: center;
 }

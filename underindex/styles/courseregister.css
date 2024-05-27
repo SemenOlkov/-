@@ -249,6 +249,13 @@ h1 {
     bottom: 11%;
     right: 39.5%;
 }
+.cat9 {
+    height: 40vh;
+    width: 25vw;
+    position: absolute;
+    top: 22%;
+    right: 10.5%;
+}
 .i {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8vw;
