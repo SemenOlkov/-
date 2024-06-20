@@ -262,6 +262,7 @@ body {
         gap: 20px;
         a {
             font-size: 5vw;
+            text-align: center;
         }
         .globalSearch {
             width: 100%;
@@ -270,6 +271,7 @@ body {
             }
         }
         .lang {
+            width: auto;
             a {
                 font-size: 3vw;
             }
@@ -282,11 +284,18 @@ body {
         }
         .part3 {
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             align-content: center;
             gap: 20px;
         }
         height: 40vw;
+        .search {
+            width: 30vw;
+            border-radius: 1vw;
+        }
+        .headerbutton {
+            margin-left: 0px;
+        }
     }
     .mhidden {
         display: none;
