@@ -33,6 +33,7 @@ body {
     display: flex;
     align-self: center;
     justify-self: start;
+    align-items: center;
 }
 .headerbutton {
     text-decoration: none;
