@@ -285,7 +285,7 @@ body {
             align-content: center;
             gap: 20px;
         }
-        height: 40vh;
+        height: 40vw;
     }
     .mhidden {
         display: none;
@@ -361,7 +361,7 @@ body {
     }
     #footer {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-content: center;
         .f2 {
             .footertext{
@@ -371,7 +371,7 @@ body {
         }
         .f3 {
             p {
-                font-size: 1.2vw;
+                font-size: 2vw;
                 text-align: center;
             }
         }
