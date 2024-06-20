@@ -33,6 +33,7 @@ body {
     display: flex;
     align-self: center;
     justify-self: start;
+    align-items: center;
 }
 .headerbutton {
     text-decoration: none;
@@ -126,7 +127,7 @@ body {
     font-size: 1.875vw;
     height: 7vh;
     padding-left: 1vw;
-    padding-right: 1vh;
+    padding-right: 1vw;
 }
 .navbutton:hover {
     background-color: #365D7F;
@@ -244,4 +245,145 @@ body {
 }
 .f3 {
     padding-left: 1em;
+}
+.mheader {
+    display: none;
+}
+.notmhidden {
+    display: none;
+}
+@media (max-width: 1100px) and (orientation: portrait) {
+    .meet {
+        display: none;
+    }
+    .logopart {
+        display: none;
+    }
+    .mheader {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 20px;
+        a {
+            font-size: 5vw;
+        }
+        .globalSearch {
+            width: 100%;
+            a {
+                font-size: 3vw; 
+            }
+        }
+        .lang {
+            a {
+                font-size: 3vw;
+            }
+        }
+        .part1 {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            gap: 20px;
+        }
+        .part3 {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            gap: 20px;
+        }
+        height: 40vh;
+    }
+    .mhidden {
+        display: none;
+    }
+    img {
+        width: 200px;
+        height: auto;
+    }
+    .notmhidden {
+        margin-top: 20px;
+        display: block;
+        width: 80vw;
+        height: auto;
+        justify-self: center;
+        align-self: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .buttonline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 20px;
+        .navbutton {
+            font-size: 5vw;
+            height: auto;
+            width: 90vw;
+            align-self: center;
+        }
+        .st {
+            margin-right: 0vw;
+        }
+    }
+    #crm {
+        width: 90vw;
+        padding: 0px;
+    }
+    #crm a {
+        text-align: center;
+        font-size: 3.5vw;
+        align-self: center;
+    }
+    #crm1 {
+        width: 90vw;
+        padding: 0px;
+    }
+    #crm1 a {
+        text-align: center;
+        font-size: 3.5vw;
+        align-self: center;
+    }
+    #crm2 {
+        width: 90vw;
+        padding: 0px;
+    }
+    #crm2 a {
+        text-align: center;
+        font-size: 3.5vw;
+        align-self: center;
+    }
+    #crm3 {
+        width: 90vw;
+        padding: 0px;
+    }
+    #crm3 a {
+        text-align: center;
+        font-size: 3.5vw;
+        align-self: center;
+    }
+    .f1 {
+        display: none;
+    }
+    #footer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        .f2 {
+            .footertext{
+                font-size: 3vw;
+                text-align: center;   
+            }
+        }
+        .f3 {
+            p {
+                font-size: 1.2vw;
+                text-align: center;
+            }
+        }
+    }
 }

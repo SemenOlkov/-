@@ -72,6 +72,7 @@ body {
     position: absolute;
     border-radius: 0.83vw;
     background-color: #ffffff;
+    z-index: 1000;
 }
 .lang a {
     text-decoration: none;
@@ -125,6 +126,7 @@ body {
     border-radius: 1vw;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .step img{
     height: 55.6vh;
@@ -156,36 +158,36 @@ h1 {
     height: 50vh;
     width: 30vw;
     position: absolute;
-    bottom: 12%;
-    left: 14%;
+    bottom: 0%;
+    left: 0%;
 }
 .cat2 {
     height: 45vh;
     width: 25vw;
     position: absolute;
-    bottom: 13.5%;
-    right: 13%;
+    bottom: 0%;
+    right: 0%;
 }
 .cat3 {
     height: 46vh;
     width: 28vw;
     position: absolute;
-    top: 18.5%;
-    left: 9.5%;
+    top: 0%;
+    left: -6.5%;
 }
 .cat4 {
     height: 45vh;
     width: 27vw;
     position: absolute;
-    bottom: 25.5%;
-    right: 14%;
+    bottom: 10.5%;
+    right: 0%;
 }
 .cat5 {
     height: 45vh;
     width: 25vw;
     position: absolute;
-    bottom: 13.5%;
-    right: 18%;
+    bottom: 0%;
+    right: 10%;
 }
 .i {
     font-family: 'Montserrat', sans-serif;
