@@ -220,6 +220,7 @@ h1 {
     body {
         position: relative;
         overflow: hidden;
+        margin: 0px;
     }
     .chgif {
         display: block;
